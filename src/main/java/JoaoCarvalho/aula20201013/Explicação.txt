@@ -1,0 +1,2 @@
+O código está em SRC/MAIN/JAVA/JOAOCARVALHO/AULA20201013, as value object que foi implementada no código foi a de Física e Jurídica, 
+mas todas a value object presentes no código foi a Transportadora, Vendedor, Cliente, Fornecedor, jurídica e Física.
