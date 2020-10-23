@@ -1,4 +1,4 @@
-package aula20201020.modeloOOMercado;
+package aula20201022.modeloOOMercado;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,5 +52,14 @@ public abstract class Pessoa {
         }
         return null;
     }
+
+	public boolean isCliente() {
+        for (Papel papel : papéis) {
+            if (papel instanceof Cliente) {
+                return true;
+            }
+        }
+        return false;
+	}
 
 }
